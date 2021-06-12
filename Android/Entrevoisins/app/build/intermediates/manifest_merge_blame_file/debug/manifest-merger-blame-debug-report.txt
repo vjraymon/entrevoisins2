@@ -1,0 +1,80 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.openclassrooms.entrevoisins"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:7:5-34:19
+14        android:allowBackup="true"
+14-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+15-->[com.android.support:support-compat:28.0.0] C:\Users\vjray\.gradle\caches\transforms-2\files-2.1\950cafb7342b3be6b1e07c6190c89f13\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:10:9-41
+19        android:networkSecurityConfig="@xml/network_security_config"
+19-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:11:9-69
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:12:9-54
+21        android:supportsRtl="true"
+21-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:13:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:14:9-40
+24        <activity
+24-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:15:9-17:72
+25            android:name="com.openclassrooms.entrevoisins.ui.neighbour_list.DisplayNeighbourActivity"
+25-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:15:19-77
+26            android:label="@string/activity_display_neighbour"
+26-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:17:19-69
+27            android:parentActivityName="com.openclassrooms.entrevoisins.ui.neighbour_list.ListNeighbourActivity" />
+27-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:16:19-88
+28
+29        <meta-data
+29-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:18:13-20:76
+30            android:name="android.support.PARENT_ACTIVITY"
+30-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:19:17-63
+31            android:value=".ui.neighbour_list.ListNeighbourActivity" />
+31-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:20:17-73
+32
+33        <activity
+33-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:21:9-23:62
+34            android:name="com.openclassrooms.entrevoisins.ui.neighbour_list.AddNeighbourActivity"
+34-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:22:13-67
+35            android:label="@string/activity_new_neighbour" />
+35-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:23:13-59
+36        <activity
+36-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:24:9-33:20
+37            android:name="com.openclassrooms.entrevoisins.ui.neighbour_list.ListNeighbourActivity"
+37-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:25:13-68
+38            android:label="@string/app_name"
+38-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:26:13-45
+39            android:theme="@style/AppTheme.NoActionBar" >
+39-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:27:13-56
+40            <intent-filter>
+40-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:28:13-32:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:29:17-69
+41-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:29:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:31:17-77
+43-->C:\Users\vjray\Documents\Open ClassRoom\EntreVoisins\Android\Entrevoisins\app\src\main\AndroidManifest.xml:31:27-74
+44            </intent-filter>
+45        </activity>
+46    </application>
+47
+48</manifest>
